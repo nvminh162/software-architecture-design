@@ -1,0 +1,4 @@
+jwt: # openssl rand -base64 64
+  signer-key: ${JWT_SIGNER_KEY:WL4EjoUlxLJDtuWBfz20NflAIgFjC6xNR6zmkrGh1HFy5rQNy9oIF/npA5nHyJLHp6Gc53srOY9F8FY0XGBGTg==}
+  valid-duration: ${VALID_DURATION:0}
+  refreshable-duration: ${REFRESHABLE_DURATION:0}
